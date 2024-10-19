@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -319,8 +319,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					228DB9F218BC53F1002BA12A = {
@@ -329,7 +329,6 @@
 				};
 			};
 			buildConfigurationList = 228DB9EE18BC53F1002BA12A /* Build configuration list for PBXProject "UIKitCatalog" */;
-			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -337,6 +336,7 @@
 				Base,
 			);
 			mainGroup = 228DB9EA18BC53F1002BA12A;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 228DB9F418BC53F1002BA12A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -620,6 +620,7 @@
 			baseConfigurationReference = A5E23920A5E1025000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -678,6 +679,7 @@
 			baseConfigurationReference = A5E23920A5E1025000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -732,7 +734,6 @@
 				CODE_SIGN_ENTITLEMENTS = UIKitCatalog/UIKitCatalog.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CURRENT_PROJECT_VERSION = 2.13;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/UIKitCatalog/UIKitCatalog-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -741,7 +742,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.UICatalog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -756,7 +758,6 @@
 				CODE_SIGN_ENTITLEMENTS = UIKitCatalog/UIKitCatalog.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CURRENT_PROJECT_VERSION = 2.13;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/UIKitCatalog/UIKitCatalog-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
