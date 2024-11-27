@@ -10,8 +10,16 @@ import XCTest
 
 final class UIKitCatalogUITests: XCTestCase {
 
-    @MainActor
+    //@MainActor
     func testExample() throws {
         print("Alex Andrade || Hello, World!");
+    }
+    
+    func testExample1() throws {
+        var num:Int = 10;
+        print("Alex Andrade || Hello, World!" + String(num));
+        
+        let constant:Int = 10
+        print("Alex Andrade || Hello, World!" + String(constant));
     }
 }
